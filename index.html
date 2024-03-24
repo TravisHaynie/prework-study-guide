@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -59,7 +60,18 @@
       <section class="card" id="css-section">
       <h2>CSS</h2>
       <ul>
-        <li>Enter your CSS notes here</li>
+        <li>An example of inline CSS is using the style attribute to change the color of a single h1 heading</li>
+        <li>It is also possible to embed an entire stylesheet directly in the HTML file using a 'style' element in the 'head' element. This internal style sheet contains CSS rules for the webpage in the head section of the HTML file. The rules only apply to that page, and you can configure CSS classes and IDs, which are used to identify elements, to style multiple elements in the page code. Again, a single change to the CSS rule will apply to all tagged page elements</li>
+        <li> external CSS style sheet. This is preferred in most cases because it allows developers to keep all their CSS rules in a separate file, which makes design changes easier.</li>
+        <li>A margin property indicates how much space we want around the outside of an element. The margin is not visible on the page; it merely adds a buffer. When we set the margin property to 0, we are indicating that we want NO extra space around the element.</li>
+        <li>The padding property adds space around the content inside an element. When you increase padding, you are actually making the entire element bigger! That is because the padding, while transparent, is located inside the element, whereas the margin is the transparent buffer outside an element.</li>
+        <li>Sometimes, we want to apply a rule to all the elements visible on the page. To do that, we use a special wild card symbol, or *</li>
+        <li>The 'img' selector assigns property values to any image element in the markup</li>
+        <li>In the preceding statement, a 'link' element creates the connection to the external file.</li>
+        <li>The rel attribute specifies the relationship between the current document and the linked document resource.</li>
+        <li>the href attribute specifies the location (URL) of the external resource. The href attribute is using a relative path. This means the location is derived from the current location (in this case, index.html). To locate the style sheet from the current location, we must look in the assets folder, hence assets/style.css.</li>
+        <li>Add the following code after the final 'meta' element and before the 'title' element: Start of code snippet:(link rel="stylesheet" href="./assets/style.css")</li>
+        <li>Class attributes allow us to share a CSS rule to any element we choose by assigning the rule to a class attribute with a class selector</li>
       </ul>
       </section>
       <section class="card" id="git-section">
@@ -83,12 +95,35 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
       <ul>
-        <li>Enter your Javascript notes here</li>
+        <li>A variable is a named container that allows us to store data in out code.</li>
+        <li>Control flow is the order in which a comouter executes code in a script.</li>
+        <li>The const keyword allows us to create variables that can't be reassigned a value. It essentially "locks down" what that variable will be, and once we declare it, we can never reassign it. When writing JavaScript, we always want to start by declaring variables using const.</li>
+        <li>Finally, we use an assignment operator = to assign the specific data that we want stored in our variable</li>
+        <li>Notice that the string is contained within quotation marks, "</li>
+        <li>The topics variable contains a string that includes all of the topics that we are studying in this module: "HTML, CSS, Git, JavaScript"</li>
+        <li>Here, we've added the console.log method to the file. We can use the console.log method to output a message to the web console by adding an argument.</li>
+        <li>The console.log method was created to make it easier for developers to test their code. Developers use it daily to debug and test the code that they write. Soon, using it will become second nature for you too!</li>
+        <li>Control flow is the order in which a computer executes code in a script. In JavaScript, code runs from the first statement at the top of the page, down to the last statement at the bottom of the page</li>
+        <li>We can use conditional statements and loops to control the order in which code is executed, or if it is even executed at all. In this step, we’ll reverse engineer code to set up a conditional statement that lets us alter the control flow so that code executes only if a certain condition is met.</li>
+        <li>An if statement is a way of introducing decision-making into our code. Just like its name sounds, when using the if statement, code will only execute if the statement meets a condition, or is true.</li>
+        <li>When the computer encounters an if statement in a JavaScript file, it will check to see if the condition that we provide is truthy. If it is, then it will do whatever action we ask it to do in between the curly brackets. If the condition isn’t true or has a value that isn’t truthy, then the computer will ignore whatever is in between the curly brackets and move on.</li>
+        <li>In JavaScript, we can have more than one condition—just like we did in the dishes pseudocode—by using else if</li>
+        <li>The strict equality operator (===) checks to see if two values are equal, and returns a Boolean result true if the values are equal and false if the values are not equal</li>
+        <li>When creating an if statement, we provide one or more conditions for the computer to evaluate. If one condition is truthy, the computer will execute the code that we provide between curly brackets. But if the condition is not truthy, the code will not execute, interrupting the control flow. Interrupting the control flow in this way allows us to build apps that respond to a user's actions.</li>
+        <li>An array is a single variable that is used to hold a group of data. Arrays are typically used to hold data that is related in some way.</li>
+        <li>strings need to be contained within quotation marks</li>
+        <li> is a number and true is a Boolean value, no quotation marks are necessary for those values. As you can see, this array contains a string, a number, and a Boolean value.</li>
+        <li>This means that the first item in any array has an index of 0, not 1. The indices, or location identifiers, will always be whole numbers that increase by 1 each time.</li>
+        <li>A for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over</li>
+        <li>A for loop contains the following three important statements:The first statement determines the starting point for our loop. Since we want to start at the beginning of the array, we declare a variable x and give it a value of 0 (because the first index of an array is always 0), as shown in the following line of code:</li>
+        <li>The second statement is the condition. As long as the number in the variable x is less than the length of the array, the loop will keep running. This will allow the loop to execute one time for each item in the array.</li>
+        <li>The code x++ is a shortcut way of writing x+1. Now every time the code loops, x will increase by 1, as shown in the following line of code:</li>
       </ul>
     </section>
     </main>
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
